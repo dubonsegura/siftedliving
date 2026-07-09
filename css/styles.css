@@ -179,3 +179,37 @@ footer a{text-decoration:none}
   .hero h1{font-size:42px}
   .section{padding:54px 6%}
 }
+
+.piece-price{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:30px;
+  margin:20px 0 0;
+  color:var(--charcoal);
+}
+button.button{cursor:pointer;font-family:inherit}
+.cart-items{display:grid;gap:18px;max-width:900px}
+.cart-row{
+  display:grid;
+  grid-template-columns:160px 1fr;
+  gap:24px;
+  align-items:center;
+  background:var(--ivory);
+  border:1px solid var(--line);
+  padding:16px;
+}
+.cart-row img{width:160px;height:160px;object-fit:cover}
+.cart-row h3{font-size:26px;margin:0 0 8px}
+.cart-summary{margin-top:36px;background:var(--ivory);border:1px solid var(--line);padding:30px;max-width:900px}
+.form-grid{display:grid;gap:14px;margin-top:20px}
+input,textarea{
+  width:100%;
+  padding:14px 15px;
+  border:1px solid var(--line);
+  background:white;
+  font:inherit;
+}
+textarea{min-height:150px}
+@media(max-width:640px){
+  .cart-row{grid-template-columns:1fr}
+  .cart-row img{width:100%;height:auto;aspect-ratio:1/1}
+}

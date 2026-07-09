@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cart | SIFTED</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html">SIFTED</a>
+  <nav class="nav">
+    <a href="discoveries.html">Recent Discoveries</a>
+    <a href="story.html">Our Story</a>
+    <a href="promise.html">The Promise</a>
+    <a href="journal.html">Journal</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart <span id="cart-count">0</span></a>
+  </nav>
+</header>
+
+
+<main>
+<section class="page-hero">
+  <p class="eyebrow">Demo cart</p>
+  <h1>Your Cart</h1>
+  <p class="lead">This is a front-end demo cart for testing the buyer experience. It does not process payment yet.</p>
+</section>
+<section class="section">
+  <div id="cart-items" class="cart-items"></div>
+  <div class="cart-summary">
+    <h2>Cart Summary</h2>
+    <p class="lead">Subtotal: <strong id="cart-total">$0</strong></p>
+    <div class="actions">
+      <a class="button" href="checkout.html">Continue to Checkout</a>
+      <button class="button secondary" id="clear-cart">Clear Cart</button>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<footer>
+  <div>© SIFTED · Collected with Intention. Meant to Be Lived With.</div>
+  <div><a href="mailto:hello@siftedliving.com">hello@siftedliving.com</a></div>
+</footer>
+<script src="js/cart.js"></script>
+
+</body>
+</html>

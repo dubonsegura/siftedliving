@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Checkout | SIFTED</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html">SIFTED</a>
+  <nav class="nav">
+    <a href="discoveries.html">Recent Discoveries</a>
+    <a href="story.html">Our Story</a>
+    <a href="promise.html">The Promise</a>
+    <a href="journal.html">Journal</a>
+    <a href="contact.html">Contact</a>
+    <a href="cart.html">Cart <span id="cart-count">0</span></a>
+  </nav>
+</header>
+
+
+<main>
+<section class="page-hero">
+  <p class="eyebrow">Demo checkout</p>
+  <h1>Checkout Preview</h1>
+  <p class="lead">This page lets us test the flow. Final payment should later connect to Stripe or your chosen ecommerce checkout.</p>
+</section>
+<section class="section">
+  <div class="contact-box">
+    <h2>Buyer Information</h2>
+    <form class="form-grid" onsubmit="event.preventDefault(); alert('Demo order received. Final checkout will connect to Stripe later.');">
+      <input placeholder="Full name" required>
+      <input placeholder="Email address" type="email" required>
+      <input placeholder="Shipping address" required>
+      <textarea placeholder="Notes about delivery, questions, or this piece"></textarea>
+      <button class="button" type="submit">Place Demo Order</button>
+    </form>
+  </div>
+</section>
+</main>
+
+
+<footer>
+  <div>© SIFTED · Collected with Intention. Meant to Be Lived With.</div>
+  <div><a href="mailto:hello@siftedliving.com">hello@siftedliving.com</a></div>
+</footer>
+<script src="js/cart.js"></script>
+
+</body>
+</html>
