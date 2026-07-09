@@ -1,20 +1,13 @@
-SIFTED VERSION 2.0 - HOSTINGER UPLOAD INSTRUCTIONS
+SIFTED VERSION 2.1 BALANCED TYPOGRAPHY
 
-1. Unzip this file on your computer.
-2. Open the SIFTED_v2_site folder.
-3. Upload the CONTENTS of the folder to Hostinger public_html.
-   Upload:
-   - index.html
-   - discoveries.html
-   - story.html
-   - promise.html
-   - journal.html
-   - contact.html
-   - all individual piece pages
-   - css folder
-   - assets folder
-4. Do not upload the zip itself as the live website.
-5. Temporary images are loaded from Unsplash and should be replaced later with your own studio photos.
+This is the same SIFTED Version 2 site, but the sizing has been corrected:
+- smaller homepage hero
+- smaller page titles
+- reduced spacing
+- balanced image height
+- cleaner product/piece cards
+- better mobile proportions
 
-IMPORTANT:
-This is SIFTED Version 2.0 foundation. We will replace temporary stock images with your original Friday studio photography.
+UPLOAD:
+Replace the existing files in public_html with the contents of this folder.
+At minimum, upload css/styles.css to immediately fix the oversized look.
